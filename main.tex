@@ -6,17 +6,25 @@
 \setbeamertemplate{footline}[frame number]
 \setbeamertemplate{frametitle}[default][center]
 
+\mode<presentation>{
+\usetheme{Dresden}
+%\setbeamercovered{transparent}
+\usecolortheme{seagull}
+}
+
+\setbeamertemplate{headline}{}
+
+\definecolor{peeblue}{RGB}{1,123,165}
+\setbeamercolor*{palette primary}{fg=black,bg=peeblue!80}
+\setbeamercolor*{palette secondary}{fg=black,bg=peeblue!80!gray!80}
+\setbeamercolor*{palette tertiary}{fg=black,bg=peeblue!100}
+\setbeamercolor*{palette quaternary}{fg=black,bg=peeblue!110}
 
 \usebackgroundtemplate
-{
-
-    \begin{picture}(100,205)(-15,-225)
-    \includegraphics[width=0.07\paperwidth,keepaspectratio]{imgs/pesc-3.png}
-    \end{picture}
-
-    \begin{picture}(100,275)(105,0)
-    \includegraphics[width=0.4\paperwidth,keepaspectratio]{imgs/pesc-2.png}
-    \end{picture}
+{%
+    \begin{picture}(210,40)(-5,2)
+    \includegraphics[width=0.07\paperwidth,keepaspectratio]{imgs/pee-logo-short.png}
+    \end{picture}%
 }
 
 \title{Título da Apresentação}
@@ -26,7 +34,7 @@
 \institute
 {
   Universidade Federal do Rio de Janeiro\\
-  UFRJ/COPPE/PESC
+  UFRJ/COPPE/PEE
 }
 
 
@@ -35,12 +43,8 @@
 
 {
 \usebackgroundtemplate{
-    \begin{picture}(100,205)(-10,-215)
-    \includegraphics[width=0.3\paperwidth,keepaspectratio]{imgs/pesc.png}
-    \end{picture}
-
-    \begin{picture}(100,275)(105,0)
-    \includegraphics[width=0.4\paperwidth,keepaspectratio]{imgs/pesc-2.png}
+    \begin{picture}(210,55)(-5,0)
+    \includegraphics[width=0.25\paperwidth,keepaspectratio]{imgs/pee-logo.png}
     \end{picture}
 }
 \begin{frame}
