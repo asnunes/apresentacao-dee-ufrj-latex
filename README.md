@@ -1,10 +1,9 @@
 # Sobre
 
-Simples template de apresentações para o Programa de Engenharia e Sistemas de Computação(PESC)
+Simples template de apresentações para o Programa de Engenharia Elétrica (PEE)
 da COPPE/UFRJ.
 
-Consiste no tema `default` do `beamer` com a adição dos logos e do background usualmente
-utilizado em apresentações do programa.
+Consiste no tema `dresden` do `beamer` com a adição dos logos. O cabeçalho foi removido e as cores do rodapé foram adequadas às do logo.
 
 # Como usar
 
@@ -13,4 +12,4 @@ slides e executar `make build`. O pdf com os slides será adicionado dentro do d
 
 # Exemplo
 
-Slides de exemplo podem ser visualizados [aqui](https://github.com/andrestc/apresentacao-pesc-latex/blob/master/pdf/main.pdf).
+Slides de exemplo podem ser visualizados [aqui](https://github.com/ggleizer/apresentacao-coppe-pee-latex/blob/master/pdf/main.pdf).
