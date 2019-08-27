@@ -1,7 +1,6 @@
 # Sobre
 
-Simples template de apresentações para o Programa de Engenharia Elétrica (PEE)
-da COPPE/UFRJ.
+Simples template de apresentações para o Departamento de Engenharia Elétrica da UFRJ (DEE/UFRJ).
 
 Consiste no tema `dresden` do `beamer` com a adição dos logos. O cabeçalho foi removido e as cores do rodapé foram adequadas às do logo.
 
@@ -12,4 +11,4 @@ slides e executar `make build`. O pdf com os slides será adicionado dentro do d
 
 # Exemplo
 
-Slides de exemplo podem ser visualizados [aqui](https://github.com/ggleizer/apresentacao-coppe-pee-latex/blob/master/pdf/main.pdf).
+Slides de exemplo podem ser visualizados [aqui](https://github.com/asnunes/apresentacao-dee-ufrj-latex/blob/master/pdf/main.pdf)
