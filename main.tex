@@ -19,6 +19,13 @@
 \setbeamertemplate{headline}{}
 \usefonttheme[onlymath]{serif}
 
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\insertframenumber/\inserttotalframenumber
+}
+
 \definecolor{peeblue}{RGB}{1,123,165}
 \setbeamercolor*{palette primary}{fg=black,bg=peeblue!80}
 \setbeamercolor*{palette secondary}{fg=black,bg=peeblue!80!gray!80}
